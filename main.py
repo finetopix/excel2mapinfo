@@ -30,5 +30,5 @@ if __name__ == '__main__':
     # Show the plot
     plt.show()
 
-    output_path = r'C:\Users\T1603086\OneDrive - TPG Telecom\Documents\01-scripts\excel2mapinfo\output_file.TAB'
+    output_path = r'C:\Users\01-scripts\excel2mapinfo\output_file.TAB'
     gdf.to_file(output_path, driver='MapInfo File')
